@@ -1,6 +1,6 @@
 //Fps
 var fps = document.createElement("div");
-fps.setAttribute("style", "font-size: 3em;position: absolute;z-index: 9999999;color: greenyellow;");
+fps.setAttribute("style", "font-size: 3em; position: sticky; z-index: 9999999; color: greenyellow; bottom: 0; background-color: black; width: fit-content;");
 document.body.appendChild(fps);
 
 var last = performance.now();
